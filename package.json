@@ -1,0 +1,27 @@
+{
+  "name": "vue3.0-demo",
+  "version": "1.0.0",
+  "description": "a vue3.0 demo",
+  "main": "index.js",
+  "author": "davidchen",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.10"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.10",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.4.1",
+    "less-loader": "^7.0.1",
+    "style-loader": "^1.2.1",
+    "vue-loader": "^16.0.0-beta.5",
+    "vue-router": "^4.0.0-beta.9",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
